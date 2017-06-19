@@ -25,7 +25,7 @@ public class Splah extends AppCompatActivity {
         mPvGithub.setOnParticleAnimListener(new ParticleView.ParticleAnimListener() {
             @Override
             public void onAnimationEnd() {
-                Intent intent = new Intent(Splah.this, HomeMenu.class);
+                Intent intent = new Intent(Splah.this, Login.class);
                 Splah.this.startActivity(intent);
                 finish();
             }
